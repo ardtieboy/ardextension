@@ -2,8 +2,7 @@ namespace ardMagic{
     /**
      * Dummy comments
      */
-    //% blockId=ardMagicHello
-    //% block="hello"
+    //% block
     export function hello(persoon: string) {
         basic.showString("Hallo" + persoon)
     }
