@@ -1,10 +1,9 @@
-namespace ardMagic{
-    /**
-     * Dummy comments
-     */
-    //% block
-    export function hello(persoon: string) {
+namespace ardMagic {
+    /** Dummy comments */
+    //  % block
+    public hello(persoon: string) {
         basic.showString("Hallo" + persoon)
     }
-
+    
 }
+
