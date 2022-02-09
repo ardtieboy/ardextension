@@ -1,10 +1,3 @@
-@namespace
-class ardMagic:
-    """
-    
-    Dummy comments
-    
-    """
-    # % block
-    def hello(self, persoon: str):
-        basic.show_string("Hallo" + persoon)
+class ArdMagic:
+    def hello(self, voornaam, achternaam):
+        basic.show_string("Hallo" + str(voornaam) + str(achternaam))
